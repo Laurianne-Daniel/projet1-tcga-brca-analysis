@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Project 1 — Exploratory Analysis of Breast Cancer Molecular Subtypes (TCGA-BRCA)
 
 > **Research question:** Which clinical characteristics distinguish the PAM50 molecular subtypes of breast cancer, and are these differences statistically robust after correction for multiple testing?
