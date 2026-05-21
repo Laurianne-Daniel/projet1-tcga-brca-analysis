@@ -43,7 +43,7 @@ Repo structure
 .
 ├── README.md
 ├── requirements.txt
-├── projet1_tcga_brca_eda.ipynb
+├── project1_tcga_brca_eda.ipynb
 ├── data/
 │   ├── raw/             # raw files from GDC (not versioned)
 │   └── processed/       # cleaned datasets (regenerable)
@@ -54,8 +54,8 @@ Repo structure
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Laurianne-Daniel/projet1-tcga-brca-analysis.git
-cd projet1-tcga-brca-analysis
+git clone https://github.com/Laurianne-Daniel/project1-tcga-brca-analysis.git
+cd project1-tcga-brca-analysis
 
 # 2. Create a virtual environment
 python -m venv .venv
@@ -70,7 +70,7 @@ pip install -r requirements.txt
 #    Place TSV files in data/raw/
 
 # 5. Launch the notebook
-jupyter notebook projet1_tcga_brca_eda.ipynb
+jupyter notebook project1_tcga_brca_eda.ipynb
 ```
 
 ## Assumed limitations
