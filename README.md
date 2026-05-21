@@ -1,26 +1,20 @@
-# Projet 1 — Analyse exploratoire des sous-types moléculaires du cancer du sein (TCGA-BRCA)
+Exploratory Analysis of Molecular Subtypes of Breast Cancer (TCGA-BRCA)
+Question: What clinical characteristics distinguish the PAM50 molecular subtypes of breast cancer, and are these differences statistically robust after correction for multiple testing?
 
-> **Question** : Quelles caractéristiques cliniques distinguent les sous-types moléculaires PAM50 du cancer du sein, et ces différences sont-elles statistiquement robustes après correction pour tests multiples ?
+Why this project?
+Breast cancer is molecularly heterogeneous: the intrinsic PAM50 subtypes (Luminal A, Luminal B, HER2-enriched, Basal-like, Normal-like) have different prognoses and require distinct therapeutic strategies. This project aims to characterize these differences in the TCGA-BRCA reference cohort (~1,100 patients).
 
-## Pourquoi ce projet ?
+Approach
+Retrieval of raw clinical data via the GDC Data Portal
+Data cleaning: deduplication, harmonization of NaN codes, stage grouping
+Descriptive exploration: distributions, visualizations by subtype
+Justified statistical tests: Kruskal-Wallis, Chi², with FDR correction (Benjamini-Hochberg)
+Visual summary oriented toward clinical decision-making
+Key results
+To be completed after execution.
 
-Le cancer du sein est moléculairement hétérogène : les sous-types intrinsèques PAM50 (Luminal A, Luminal B, HER2-enriched, Basal-like, Normal-like) ont des **pronostics différents** et appellent des **stratégies thérapeutiques distinctes**. Ce projet vise à caractériser ces différences sur la cohorte de référence TCGA-BRCA (~1100 patientes).
+Repo structure
 
-## Approche
-
-1. **Récupération** des données cliniques brutes via le GDC Data Portal
-2. **Nettoyage** : déduplication, harmonisation des codages de NaN, regroupement des stades
-3. **Exploration descriptive** : distributions, visualisations par sous-type
-4. **Tests statistiques** justifiés : Kruskal-Wallis, Chi², avec correction FDR (Benjamini-Hochberg)
-5. **Synthèse visuelle** orientée décision clinique
-
-## Résultats clés
-
-> _À compléter après exécution._
-
-## Structure du repo
-
-```
 .
 ├── README.md
 ├── requirements.txt
