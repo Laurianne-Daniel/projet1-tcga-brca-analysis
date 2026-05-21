@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Project 1 — Exploratory Analysis of Breast Cancer Molecular Subtypes (TCGA-BRCA)
 
 > **Research question:** Which clinical characteristics distinguish the PAM50 molecular subtypes of breast cancer, and are these differences statistically robust after correction for multiple testing?
@@ -21,6 +22,25 @@ Breast cancer is molecularly heterogeneous: the intrinsic PAM50 subtypes (Lumina
 ## Repository structure
 
 ```
+=======
+Exploratory Analysis of Molecular Subtypes of Breast Cancer (TCGA-BRCA)
+Question: What clinical characteristics distinguish the PAM50 molecular subtypes of breast cancer, and are these differences statistically robust after correction for multiple testing?
+
+Why this project?
+Breast cancer is molecularly heterogeneous: the intrinsic PAM50 subtypes (Luminal A, Luminal B, HER2-enriched, Basal-like, Normal-like) have different prognoses and require distinct therapeutic strategies. This project aims to characterize these differences in the TCGA-BRCA reference cohort (~1,100 patients).
+
+Approach
+Retrieval of raw clinical data via the GDC Data Portal
+Data cleaning: deduplication, harmonization of NaN codes, stage grouping
+Descriptive exploration: distributions, visualizations by subtype
+Justified statistical tests: Kruskal-Wallis, Chi², with FDR correction (Benjamini-Hochberg)
+Visual summary oriented toward clinical decision-making
+Key results
+To be completed after execution.
+
+Repo structure
+
+>>>>>>> 3d0d1eb29546882cbfe4865d569dcd07f0cca1e0
 .
 ├── README.md
 ├── requirements.txt
