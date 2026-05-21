@@ -91,5 +91,3 @@ This project is the first in a series of four demonstrating a complete biomedica
 ## About me
 
 I help biomedical and biotech teams turn their clinical, biological, and genomic data into reliable analyses and actionable visualizations — accelerating decision-making and reducing uncertainty. A biomedical scientist augmented by data.
-
-**Contact:** [your email] · [LinkedIn] · [portfolio website]
